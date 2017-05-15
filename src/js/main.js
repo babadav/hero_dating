@@ -10,7 +10,7 @@ var HeroApi = (function(){
 		$('.button-1').on('click', function(e){
 			e.preventDefault();
 			console.log('clicked');
-			$.ajax('https://gateway.marvel.com:443/v1/public/characters?apikey=7e4c5c423179dd65da3bd09829eeee78')
+			$.ajax('https://gateway.marvel.com/v1/public/characters?apikey=7e4c5c423179dd65da3bd09829eeee78')
 			.done(populate);
 		})
 	}
