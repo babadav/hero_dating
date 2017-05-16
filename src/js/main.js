@@ -1,8 +1,7 @@
 var HeroApi = (function(){
 	var shared = {};
 
-	function populate(data){
-		var results = JSON.parse(data);
+	function populate(results){
 		console.log(results);
 	}
 
